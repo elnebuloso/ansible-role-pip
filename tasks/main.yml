@@ -1,0 +1,9 @@
+---
+- name: configure os
+  set_fact:
+    server_base_os: "{{ansible_distribution|lower}}{{ansible_distribution_major_version|int}}"
+
+# setup os
+
+- name: setup {{server_base_os}}
+  include: "{{server_base_os}}.yml"
