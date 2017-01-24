@@ -24,6 +24,14 @@ None.
 
 MIT
 
+## Help
+
+### Update all PIP Packages
+
+```
+pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+```
+
 ##  Author Information
 
 This role was created in 2017 by [elnebuloso](https://github.com/elnebuloso/)
