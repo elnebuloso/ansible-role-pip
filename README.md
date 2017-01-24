@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/elnebuloso/ansible-role-pip.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-pip)
 
-Docker for Linux Server.
+Python PIP for Linux Server.
 
 ## Requirements
 
