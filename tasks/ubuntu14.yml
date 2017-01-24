@@ -17,7 +17,12 @@
 
 - name: upgrade setuptools
   pip:
-    name: pip
+    name: setuptools
+    extra_args: --upgrade
+
+- name: install docker
+  pip:
+    name: docker
     extra_args: --upgrade
 
 - name: install docker-py
