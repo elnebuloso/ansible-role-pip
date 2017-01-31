@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+## [1.1.0] - 2017-01-31
+### Added
+
+### Changed
+
+- removed docker-py
+- removed docker-compose
+- removed update setuptools
+
 ## [1.0.0] - 2017-01-24
 ### Added
 
