@@ -7,3 +7,4 @@
 
 - name: setup {{server_base_os}}
   include: "{{server_base_os}}.yml"
+  when: server_base_os is defined and server_base_os != ""
