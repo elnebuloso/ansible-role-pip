@@ -1,8 +1,8 @@
-# Ansible Role - Python PIP for Linux Server
+# Ansible Role - Python PIP
 
 [![Build Status](https://travis-ci.org/elnebuloso/ansible-role-pip.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-pip)
 
-Python PIP for Linux Server.
+Python PIP with Development Tools and automatic PIP Upgrade
 
 ## Requirements
 
@@ -13,7 +13,7 @@ This role requires Ansible 2.0 or higher, and platform requirements are listed i
 ```
 - hosts: localhost
   roles:
-    - { role: elnebuloso.pip }
+    - role: elnebuloso.pip
 ```
 
 ## Dependencies
@@ -24,7 +24,7 @@ None.
 
 MIT
 
-## Help
+## Other
 
 ### Update all PIP Packages
 

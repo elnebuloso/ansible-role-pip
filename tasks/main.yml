@@ -1,10 +1,4 @@
 ---
-- name: configure os
-  set_fact:
-    server_base_os: "{{ansible_distribution|lower}}{{ansible_distribution_major_version|int}}"
-
-# setup os
-
-- name: setup {{server_base_os}}
-  include: "{{server_base_os}}.yml"
-  when: server_base_os is defined and server_base_os != ""
+- name: setup {{pip_os}}
+  include: "{{pip_os}}.yml"
+  when: pip_os is defined and pip_os != ""
