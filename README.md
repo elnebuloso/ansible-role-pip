@@ -1,6 +1,6 @@
 # Ansible Role - Python PIP
 
-[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-pip.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-pip)
+![abandoned](https://img.shields.io/badge/project-abandoned-red)
 
 Python PIP with Development Tools and automatic PIP Upgrade
 
